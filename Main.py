@@ -3,6 +3,7 @@ import pyttsx3
 import random as rd
 import sys
 import os
+import pyjokes
 try:
     import BramiiMode  # Updated Bramii mode file
     import FaceMode    # Face detection mode file
@@ -82,4 +83,5 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         speak("Exiting program. Goodbye!")
         sys.exit(0)
+
         cv2.destroyAllWindows()
