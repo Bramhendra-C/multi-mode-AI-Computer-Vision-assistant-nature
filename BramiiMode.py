@@ -11,7 +11,7 @@ import requests
 import FaceMode  # For switching to face detection
 
 # OpenWeatherMap API Key
-API_KEY = "80590db90b5686dc7b68057edb05d6ec"
+API_KEY = "Paste-Your-OpenWeatherMap-API-Key-Here"
 
 # Fun facts & quotes
 fun_facts = [
@@ -185,3 +185,4 @@ def bramii():
         elif 'exit' in query or 'stop' in query or 'bye' in query or 'exit from bramii mode' in query:
             speak("Exiting Bramii mode.")
             break
+
